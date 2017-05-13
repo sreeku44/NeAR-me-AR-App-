@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0074DF585B5E1E864FFA0AC3 /* Pods_Near_me_AR_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BD9CE35F1AFD7F8CAA4CC0 /* Pods_Near_me_AR_App.framework */; };
 		DD0DDABC1E7866D000F549CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0DDABB1E7866D000F549CF /* AppDelegate.swift */; };
-		DD0DDABE1E7866D000F549CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0DDABD1E7866D000F549CF /* ViewController.swift */; };
+		DD0DDABE1E7866D000F549CF /* NearMeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0DDABD1E7866D000F549CF /* NearMeMapViewController.swift */; };
 		DD0DDAC11E7866D000F549CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0DDABF1E7866D000F549CF /* Main.storyboard */; };
 		DD0DDAC31E7866D000F549CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0DDAC21E7866D000F549CF /* Assets.xcassets */; };
 		DD0DDAC61E7866D000F549CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0DDAC41E7866D000F549CF /* LaunchScreen.storyboard */; };
+		DD0DDAD01E786B1800F549CF /* NearMeIndexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0DDACF1E786B1800F549CF /* NearMeIndexTableViewController.swift */; };
+		DD0DDAD21E786B9000F549CF /* NearMeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0DDAD11E786B9000F549CF /* NearMeIndex.swift */; };
+		DD6456EC1E7B52AE00A374ED /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6456EB1E7B52AE00A374ED /* car.png */; };
+		DD6456EE1E7B532C00A374ED /* hospital.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD6456ED1E7B532C00A374ED /* hospital.jpg */; };
+		DD6456F01E7B53F900A374ED /* park.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6456EF1E7B53F900A374ED /* park.png */; };
+		DD6456F21E7B573100A374ED /* NearMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6456F11E7B573100A374ED /* NearMeTableViewCell.swift */; };
+		DDF0504C1EBB982E00D6CD50 /* IndexRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF0504B1EBB982E00D6CD50 /* IndexRequest.swift */; };
+		DDF0504E1EBB9B0500D6CD50 /* NearMeARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF0504D1EBB9B0500D6CD50 /* NearMeARAnnotationView.swift */; };
+		DDF050501EBC0D2C00D6CD50 /* nearMeIndexAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF0504F1EBC0D2C00D6CD50 /* nearMeIndexAnnotation.swift */; };
+		DDF13D5E1E7AF98100EC94CF /* fastfood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDF13D5D1E7AF98100EC94CF /* fastfood.jpg */; };
+		DDF13D601E7AFC7A00EC94CF /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF13D5F1E7AFC7A00EC94CF /* restaurant.png */; };
+		DDF13D621E7AFCEC00EC94CF /* gas station.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF13D611E7AFCEC00EC94CF /* gas station.png */; };
+		DDF13D641E7AFD7600EC94CF /* grocery.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF13D631E7AFD7600EC94CF /* grocery.png */; };
+		DDF13D661E7AFE2200EC94CF /* museum.ico in Resources */ = {isa = PBXBuildFile; fileRef = DDF13D651E7AFE2200EC94CF /* museum.ico */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D6773A359A5C3E77D4E776E /* Pods-Near me AR App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Near me AR App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Near me AR App/Pods-Near me AR App.debug.xcconfig"; sourceTree = "<group>"; };
+		A6BD9CE35F1AFD7F8CAA4CC0 /* Pods_Near_me_AR_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Near_me_AR_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C466FF1840B073C850C0F47E /* Pods-Near me AR App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Near me AR App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Near me AR App/Pods-Near me AR App.release.xcconfig"; sourceTree = "<group>"; };
 		DD0DDAB81E7866D000F549CF /* Near me AR App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Near me AR App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0DDABB1E7866D000F549CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD0DDABD1E7866D000F549CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD0DDABD1E7866D000F549CF /* NearMeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeMapViewController.swift; sourceTree = "<group>"; };
 		DD0DDAC01E7866D000F549CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD0DDAC21E7866D000F549CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD0DDAC51E7866D000F549CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD0DDAC71E7866D000F549CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0DDACF1E786B1800F549CF /* NearMeIndexTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeIndexTableViewController.swift; sourceTree = "<group>"; };
+		DD0DDAD11E786B9000F549CF /* NearMeIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeIndex.swift; sourceTree = "<group>"; };
+		DD6456EB1E7B52AE00A374ED /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = "Near me AR App/car.png"; sourceTree = "<group>"; };
+		DD6456ED1E7B532C00A374ED /* hospital.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hospital.jpg; path = "Near me AR App/hospital.jpg"; sourceTree = "<group>"; };
+		DD6456EF1E7B53F900A374ED /* park.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = park.png; path = "Near me AR App/park.png"; sourceTree = "<group>"; };
+		DD6456F11E7B573100A374ED /* NearMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeTableViewCell.swift; sourceTree = "<group>"; };
+		DDF0504B1EBB982E00D6CD50 /* IndexRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexRequest.swift; sourceTree = "<group>"; };
+		DDF0504D1EBB9B0500D6CD50 /* NearMeARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearMeARAnnotationView.swift; path = ../NearMeARAnnotationView.swift; sourceTree = "<group>"; };
+		DDF0504F1EBC0D2C00D6CD50 /* nearMeIndexAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = nearMeIndexAnnotation.swift; path = ../nearMeIndexAnnotation.swift; sourceTree = "<group>"; };
+		DDF13D5D1E7AF98100EC94CF /* fastfood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fastfood.jpg; path = "Near me AR App/fastfood.jpg"; sourceTree = "<group>"; };
+		DDF13D5F1E7AFC7A00EC94CF /* restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = restaurant.png; path = "Near me AR App/restaurant.png"; sourceTree = "<group>"; };
+		DDF13D611E7AFCEC00EC94CF /* gas station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gas station.png"; path = "Near me AR App/gas station.png"; sourceTree = "<group>"; };
+		DDF13D631E7AFD7600EC94CF /* grocery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grocery.png; path = "Near me AR App/grocery.png"; sourceTree = "<group>"; };
+		DDF13D651E7AFE2200EC94CF /* museum.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = museum.ico; path = "Near me AR App/museum.ico"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0074DF585B5E1E864FFA0AC3 /* Pods_Near_me_AR_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09A1A5BFE5998D6850E4E488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6BD9CE35F1AFD7F8CAA4CC0 /* Pods_Near_me_AR_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E9F1B2496A1D33E991EEF11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D6773A359A5C3E77D4E776E /* Pods-Near me AR App.debug.xcconfig */,
+				C466FF1840B073C850C0F47E /* Pods-Near me AR App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DD0DDAAF1E7866D000F549CF = {
 			isa = PBXGroup;
 			children = (
 				DD0DDABA1E7866D000F549CF /* Near me AR App */,
 				DD0DDAB91E7866D000F549CF /* Products */,
+				7E9F1B2496A1D33E991EEF11 /* Pods */,
+				09A1A5BFE5998D6850E4E488 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +107,36 @@
 			isa = PBXGroup;
 			children = (
 				DD0DDABB1E7866D000F549CF /* AppDelegate.swift */,
-				DD0DDABD1E7866D000F549CF /* ViewController.swift */,
+				DDF0504D1EBB9B0500D6CD50 /* NearMeARAnnotationView.swift */,
+				DDF0504F1EBC0D2C00D6CD50 /* nearMeIndexAnnotation.swift */,
+				DD0DDABD1E7866D000F549CF /* NearMeMapViewController.swift */,
+				DD0DDAD11E786B9000F549CF /* NearMeIndex.swift */,
+				DD0DDACF1E786B1800F549CF /* NearMeIndexTableViewController.swift */,
+				DD6456F11E7B573100A374ED /* NearMeTableViewCell.swift */,
+				DDF0504B1EBB982E00D6CD50 /* IndexRequest.swift */,
 				DD0DDABF1E7866D000F549CF /* Main.storyboard */,
+				DDF0504A1EBB94E500D6CD50 /* pics */,
 				DD0DDAC21E7866D000F549CF /* Assets.xcassets */,
 				DD0DDAC41E7866D000F549CF /* LaunchScreen.storyboard */,
 				DD0DDAC71E7866D000F549CF /* Info.plist */,
 			);
 			path = "Near me AR App";
+			sourceTree = "<group>";
+		};
+		DDF0504A1EBB94E500D6CD50 /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				DD6456EF1E7B53F900A374ED /* park.png */,
+				DD6456EB1E7B52AE00A374ED /* car.png */,
+				DD6456ED1E7B532C00A374ED /* hospital.jpg */,
+				DDF13D651E7AFE2200EC94CF /* museum.ico */,
+				DDF13D631E7AFD7600EC94CF /* grocery.png */,
+				DDF13D611E7AFCEC00EC94CF /* gas station.png */,
+				DDF13D5D1E7AF98100EC94CF /* fastfood.jpg */,
+				DDF13D5F1E7AFC7A00EC94CF /* restaurant.png */,
+			);
+			name = pics;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD0DDACA1E7866D000F549CF /* Build configuration list for PBXNativeTarget "Near me AR App" */;
 			buildPhases = (
+				63143B99284866839D4318DE /* [CP] Check Pods Manifest.lock */,
 				DD0DDAB41E7866D000F549CF /* Sources */,
 				DD0DDAB51E7866D000F549CF /* Frameworks */,
 				DD0DDAB61E7866D000F549CF /* Resources */,
+				E7B2C6CFE8B0CEBDBBADFCC7 /* [CP] Embed Pods Frameworks */,
+				DB3542CDCB58656FA04A76EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +174,7 @@
 				TargetAttributes = {
 					DD0DDAB71E7866D000F549CF = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U6LTH9BHPD;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,20 +202,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6456F01E7B53F900A374ED /* park.png in Resources */,
+				DDF13D601E7AFC7A00EC94CF /* restaurant.png in Resources */,
+				DDF13D621E7AFCEC00EC94CF /* gas station.png in Resources */,
 				DD0DDAC61E7866D000F549CF /* LaunchScreen.storyboard in Resources */,
+				DD6456EC1E7B52AE00A374ED /* car.png in Resources */,
+				DDF13D641E7AFD7600EC94CF /* grocery.png in Resources */,
+				DDF13D5E1E7AF98100EC94CF /* fastfood.jpg in Resources */,
 				DD0DDAC31E7866D000F549CF /* Assets.xcassets in Resources */,
 				DD0DDAC11E7866D000F549CF /* Main.storyboard in Resources */,
+				DDF13D661E7AFE2200EC94CF /* museum.ico in Resources */,
+				DD6456EE1E7B532C00A374ED /* hospital.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63143B99284866839D4318DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB3542CDCB58656FA04A76EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Near me AR App/Pods-Near me AR App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B2C6CFE8B0CEBDBBADFCC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Near me AR App/Pods-Near me AR App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD0DDAB41E7866D000F549CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0DDABE1E7866D000F549CF /* ViewController.swift in Sources */,
+				DD6456F21E7B573100A374ED /* NearMeTableViewCell.swift in Sources */,
+				DDF050501EBC0D2C00D6CD50 /* nearMeIndexAnnotation.swift in Sources */,
+				DD0DDAD21E786B9000F549CF /* NearMeIndex.swift in Sources */,
+				DDF0504C1EBB982E00D6CD50 /* IndexRequest.swift in Sources */,
+				DDF0504E1EBB9B0500D6CD50 /* NearMeARAnnotationView.swift in Sources */,
+				DD0DDAD01E786B1800F549CF /* NearMeIndexTableViewController.swift in Sources */,
+				DD0DDABE1E7866D000F549CF /* NearMeMapViewController.swift in Sources */,
 				DD0DDABC1E7866D000F549CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +399,10 @@
 		};
 		DD0DDACB1E7866D000F549CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6773A359A5C3E77D4E776E /* Pods-Near me AR App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U6LTH9BHPD;
 				INFOPLIST_FILE = "Near me AR App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Klas.Near-me-AR-App";
@@ -270,8 +413,10 @@
 		};
 		DD0DDACC1E7866D000F549CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C466FF1840B073C850C0F47E /* Pods-Near me AR App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U6LTH9BHPD;
 				INFOPLIST_FILE = "Near me AR App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Klas.Near-me-AR-App";
@@ -299,6 +444,7 @@
 				DD0DDACC1E7866D000F549CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
